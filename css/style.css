@@ -1,0 +1,59 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    line-height:1.2em;
+    font-size:17px;
+    line-height:20px;
+}
+
+.navbar {
+    background: #ffffff;
+    margin-bottom:0;
+    min-height:70px;
+}
+
+.navbar-fixed-top {
+    min-height:60px;
+    height:60px;
+    padding-top:0;
+}
+.navbar-inner {
+    background: #ffffff;
+    border-radius:0;
+    filter: none;
+    border: none;
+    box-shadow: none;
+}
+.navbar .brand img {
+    width:70px;
+    height:40px;
+}
+.navbar .nav > li > a {
+    font-display: 'Open Sans';
+    text-transform:uppercase;
+    line-height: auto;
+    vertical-align: middle;
+    margin:10px 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    border: 1px solid #181A1C;
+    box-shadow: none;
+    font-size:15px;
+    text-shadow: none;
+    color: #000;
+    transition: border-color 1s ease;
+    border-radius:35px;
+}
+.navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    border: 1px solid rgb(0, 199, 206);
+    border-radius: 35px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: border-color 1s ease;
+}
+
+.navbar .btn-navbar:hover, .navbar .btn-navbar {
+    border-radius:0;
+    background:#FECE1A;
+    color: #000;
+}
