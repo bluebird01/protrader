@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>ProTrader</title>
-
+    <title>Easy2xchange</title>
+    <script type="text/javascript" src="https://checkout.razorpay.com/v1/razorpay.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -107,6 +107,21 @@
     <script type="text/javascript" src="js/jquery.cslider.js"></script>
     <script type="text/javascript" src="js/jquery.placeholder.js"></script>
     <script type="text/javascript" src="js/jquery.inview.js"></script>
-
+    <form action="https://www.example.com/payment/success/" method="POST">
+        <script
+            src="https://checkout.razorpay.com/v1/checkout.js"
+            data-key="rzp_test_MyC5FE7kSnBY2L" // Enter the Key ID generated from the Dashboard
+            data-amount="29935" // Amount is in currency subunits. Default currency is INR. Hence, 29935 refers to 29935 paise or INR 299.35.
+            data-currency="INR"
+            data-buttontext="Pay with Razorpay"
+            data-name="Easy2xchange"
+            data-description="Neteller,Skrill and Bitcoin services"
+            data-image="https://biz.prlog.org/profinancesoft/logo.jpg"
+            data-prefill.name="Gaurav Kumar"
+            data-prefill.email="gaurav.kumar@example.com"
+            data-theme.color="#F37254"
+        ></script>
+        <input type="hidden" custom="Hidden Element" name="hidden">
+        </form>
 </body>
 </html>
